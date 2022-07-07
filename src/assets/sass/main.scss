@@ -17,11 +17,12 @@ p {
   margin: 0;
 }
 
-.ul {
+
+ul {
   padding: 0;
-  margin: 0;
   list-style: none;
 }
+
 
 *,
 *::before,
@@ -36,4 +37,5 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: 'Nunito', sans-serif;
+  background-color: $background_color;
 }

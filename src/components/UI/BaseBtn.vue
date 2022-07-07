@@ -1,5 +1,4 @@
 <template>
-  <div>
     <button
         class="button"
         :type="type"
@@ -7,7 +6,6 @@
     >
       <slot></slot>
     </button>
-  </div>
 </template>
 
 <script lang="ts" setup>
